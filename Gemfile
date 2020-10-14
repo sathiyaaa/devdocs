@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'devdocs', git: 'https://github.com/magento-devdocs/devdocs-theme.git'
+gem 'devdocs', git: 'https://github.com/magento-devdocs/devdocs-theme.git', branch: 'yb_adobe-logo'
 gem 'jekyll'
 gem 'rake'
 gem 'whatsup_github'
