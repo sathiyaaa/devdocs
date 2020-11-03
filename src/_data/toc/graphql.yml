@@ -69,21 +69,6 @@ pages:
       - label: categoryList query
         url: /graphql/queries/category-list.html
 
-      - label: checkCompanyAdminEmail query
-        url: /graphql/queries/check-company-admin-email.html
-        edition: b2b-only
-        exclude_versions: ["2.3"]
-
-      - label: checkCompanyEmail query
-        url: /graphql/queries/check-company-email.html
-        edition: b2b-only
-        exclude_versions: ["2.3"]
-
-      - label: checkCompanyUserEmail query
-        url: /graphql/queries/check-company-admin-email.html
-        edition: b2b-only
-        exclude_versions: ["2.3"]
-
       - label: checkoutAgreements query
         url: /graphql/queries/checkout-agreements.html
 
@@ -142,6 +127,21 @@ pages:
       - label: giftRegistryTypes query
         url: /graphql/queries/gift-registry-types.html
         edition: ee-only
+
+      - label: isCompanyAdminEmailAvailable query
+        url: /graphql/queries/is-company-admin-email-available.html
+        edition: b2b-only
+        exclude_versions: ["2.3"]
+
+      - label: isCompanyEmailAvailable query
+        url: /graphql/queries/is-company-email-available.html
+        edition: b2b-only
+        exclude_versions: ["2.3"]
+
+      - label: isCompanyUserEmailAvailable query
+        url: /graphql/queries/is-company-user-email-available.html
+        edition: b2b-only
+        exclude_versions: ["2.3"]
 
       - label: isEmailAvailable query
         url: /graphql/queries/is-email-available.html
@@ -231,6 +231,11 @@ pages:
         edition: b2b-only
         exclude_versions: ["2.3"]
 
+      - label: createCompanyUser mutation
+        url: /graphql/mutations/create-company-user.html
+        edition: b2b-only
+        exclude_versions: ["2.3"]
+
       - label: createCustomer mutation
         url: /graphql/mutations/create-customer.html
 
@@ -270,6 +275,11 @@ pages:
 
       - label: deleteCompanyTeam mutation
         url: /graphql/mutations/delete-company-team.html
+        edition: b2b-only
+        exclude_versions: ["2.3"]
+
+      - label: deleteCompanyUser mutation
+        url: /graphql/mutations/delete-company-user.html
         edition: b2b-only
         exclude_versions: ["2.3"]
 
@@ -397,6 +407,11 @@ pages:
 
       - label: updateCompanyTeam mutation
         url: /graphql/mutations/update-company-team.html
+        edition: b2b-only
+        exclude_versions: ["2.3"]
+
+      - label: updateCompanyUser mutation
+        url: /graphql/mutations/update-company-user.html
         edition: b2b-only
         exclude_versions: ["2.3"]
 
